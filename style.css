@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #1E28320D;
+   
+}
+body{
+    background: #1E28320D;
+}
+
+.index{
+    /* height: 800px; */
+    width: 1400px;
+    color: black;
+    
+}
+
+.header1{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    place-content: center;
+}
+.sec-1{
+    display: grid;
+    height: 70px;
+    width: 1200px;
+    /* background: #555; */
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 2px #555 solid;
+}
+
+.coral{
+    display: block;
+    grid-template-columns: repeat(3, 1fr);
+}
+#coral{
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#search{
+    height: 25px;
+    width: 25px;
+    /* background: #555; */
+    margin: 20px;
+    cursor: pointer;
+}
+#rectangle1{
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    color: black;
+}
+#rectangle2{
+    float: left;
+    margin-left: 230px;
+    margin-top: -35px;
+   
+}
+.acc span{
+    display: inline-flex;
+    gap: 8px;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+.acc a{
+   color: black;
+    text-decoration: none;
+    background-color: #1E28320D;
+}
+
+#acc1{
+    margin-left: 120px;
+   
+}
+
+/*      *********  navbar    ************* */
+
+.nav-sec-1{
+    display: grid;
+    height: 50px;
+    width: 1200px;
+    /* margin-left: 90px;
+    padding-top: 10px; */
+    /* background: #555; */
+    grid-template-columns: repeat(7, 1fr);
+    place-content: center;
+}
+.nav-sec-1 a{
+    text-decoration: none;
+    color: black;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: center;
+    
+}
+
+/**************************************
+***********  HERO    *******************
+***********          ********************
+**************************************** */
+
+.hero{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    /* place-content: center; */
+}
+.hero-1st{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    /* align-items: center;
+    text-align: center; */
+    justify-items: center;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+.hero-1st h1{
+    /* margin-left: 100px; */
+    font-size: 70px;
+    color: black;
+    bottom: 30px;
+}
+.hero-1st h3{
+    /* margin-left: 100px; */
+    color: black;
+    font-size: 22px;
+    /* margin-top: 20px; */
+}
+.hero-1st button{
+     /* margin-left: 200px; */
+    border: none;
+    height: 50px;
+    background: black;
+    color: aliceblue;
+    width: 133px;
+    font-weight: 400;
+    /* margin-top: 30px;  */
+    line-height: 33.98px;
+    cursor: pointer;
+}
+
+.hero-2nd img{
+    width: 486px;
+    height: 400px;
+    top: 299px;
+    left: 300px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+
+/**************************************
+***********  Brand    *******************
+***********          ********************
+**************************************** */
+
+.brand {
+    width: 1200px;
+    margin-top: 50px;
+    margin-left: 95px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+/**************************************
+***********  Brand    *******************
+***********          ********************
+**************************************** */
+
+/* #rotate{
+    width: 648px;
+    height: 52px;
+    top: 648px;
+    left: -52px;
+    gap: 0px;
+    opacity: 0px;
+    rotate: 90deg;
+
+} */
+
+.hot{
+    width: 1200px;
+    margin-left: 90px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    place-content: center;
+
+}
+.hot-se-2{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+.hot-sec-2a{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin-top: 10px;
+}
+
+
+/**************************************
+***********  grid-product    ************
+***********                 **************
+**************************************** */
+
+.newsletter{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+
+#grid-a{
+    padding-right: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+    
+}
+
+.grid-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 100px;
+}
+
+.grid-img p{
+    display: inline;
+    font-size: 22px;
+    margin-top: 50px;
+}
+#price{
+    padding-left: 170px;
+    color: red;
+}
+.grid-img h2{
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+/******************************************
+***********     Banner          ************
+***********                   **************
+**************************************** */
+
+.baner {
+    background-image: url(img/bg/background.png);
+    height: 700px;
+    width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#zara1{
+   display: inline;
+   margin-left: 400px;
+   /* margin-top: 75px; */
+   height: 300px;
+   width: 400px;
+}
+/* #zara2{
+    height: 100px;
+    width: 100px;
+    margin-top: 400px; 
+   place-content: center;
+} */
+
+.zara{
+    font-size: 100px;
+    color: white;
+    /* text-align: center; */
+    /* padding-top: 350px; */
+    margin-left: 150px;
+}
+.zara-text{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+#zara-btn{
+    margin-left: 320px;
+    height: 50px;
+    width: 150px;
+    color: black;
+    background: white;
+    font-size: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+
+/******************************************
+***********      newsletter     ************
+***********      -instagram     **************
+**************************************** */
+
+.follow{
+    text-align: center;
+    padding: 20px;
+}
+
+#ins-img{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+}
+#ins-img1{
+    margin-left: 30px;
+}
+
+#email-add {
+    margin-left: 500px;
+    height: 50px;
+    width: 400px;
+    outline: 0;
+    border-width: 0 0 4px;
+    font-size: 24px;
+}
+#btn-sub{
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+    outline: 0;
+    border-width: 0 0 6px;
+    font-size: 24px;
+    border-color: #555;
+    cursor: pointer;
+}
+
+/******************************************
+***********      last           ************
+***********      section     **************
+**************************************** */
+
+
+.last-sec{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.last-sec-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    cursor: pointer;
+    padding-bottom: 30px;
+}
+
+#sec-h1{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#sec-h2{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#sec-p{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 40px;
+    padding-bottom: 30px;
+    margin-left: 12px;
+}
+
+#sec-link{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+/******************************************
+***********      footer        ************
+***********      section     **************
+**************************************** */
+
+footer{
+    height: 75px;
+    background: #070a0c;
+    color: white;
+}
+footer h1{
+    text-align: left;
+    padding-top: 20px;
+}
+footer h1 img{
+   margin-left: 150px;
+   height: 40px;
+   cursor: pointer;
+}
+footer h1 a{
+    margin-left: 250px;
+    padding-top: 0px;
+    color: white;
+    text-decoration: none;
+}
