@@ -1,5 +1,8 @@
 let sum = 20;
 const a = 10;
 
+const b = sum - a;
+
+console.log(b);
 
 console.log("Hello world");
