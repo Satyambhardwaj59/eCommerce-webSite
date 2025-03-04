@@ -1,2 +1,5 @@
+let sum = 20;
 const a = 10;
+
+
 console.log("Hello world");
