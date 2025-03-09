@@ -9,3 +9,9 @@ console.log(c-d);
 var e = 60; 
 var f = 10;
 console.log(e+f);
+
+const variable = 20;
+
+const num = 30;
+
+console.log( variable + num );
