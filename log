@@ -3,7 +3,6 @@ const a = 10;
 
 const b = sum - a;
 
-console.log(b);
 
 console.log("Hello world");
 console.log("Satyam");
