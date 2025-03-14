@@ -9,6 +9,5 @@ console.log(multiply);
 
 const variable = 20;
 
-const num = 30;
 
 console.log( variable + num );
