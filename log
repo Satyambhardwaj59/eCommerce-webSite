@@ -2,7 +2,5 @@ let sum = 20;
 const a = 10;
 
 const b = sum - a;
-
-
 console.log("Hello world");
 console.log("Satyam");
