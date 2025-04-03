@@ -13,7 +13,6 @@ console.log(e+f);
 const variable = 20;
 
 const num = 30;
-
 const variables = 20;
 
 
