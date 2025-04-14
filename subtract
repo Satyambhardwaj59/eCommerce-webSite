@@ -10,7 +10,6 @@ var e = 60;
 var f = 10;
 console.log(e+f);
 
-const variable = 20;
 
 const num = 30;
 const variables = 20;
