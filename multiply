@@ -1,4 +1,4 @@
-let f = 20;
+
 var b = 30;
 let a = 10
 const multiply = a * b;
